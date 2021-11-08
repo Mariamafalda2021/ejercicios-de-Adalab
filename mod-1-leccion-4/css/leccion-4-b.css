@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header {
+    background-color: blue;
+    min-height: 10vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: chartreuse;
+    min-height: 10vh;
+}

@@ -1,0 +1,29 @@
+body {
+    color: #f3f4f5;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+h2 {color: black;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+h3 {color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+ul {color: #757575; 
+    font-family: Georgia;
+}
+p  {
+    color: #757575; 
+    font-family: Georgia;
+    font-size: 18px;
+}
+ol {color: #757575; 
+    font-family: Georgia;
+}

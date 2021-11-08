@@ -1,0 +1,79 @@
+
+.container {
+ background-color: rgb(204, 196, 196);
+}
+
+.item {
+    padding-top: 25px;
+    background: aqua;
+    text-align:center;
+    font-size: 36px;
+}
+.container {
+    width: 50%; 
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #666;
+}
+
+
+/*EJERCICIO 3*/
+.menu {
+    height: 100px;
+    border: solid rgb(243, 168, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.submenu {
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 25px;
+}
+.submenu-home {
+
+}
+.submenu-pro {
+
+}
+.submenu-equ {
+
+}
+.submenu-blo {
+
+}
+.submenu-con {
+
+}
+
+/*EJERCICIO 4*/
+.container-news {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news {
+    width: 50%;
+    overflow: hidden;
+    background-color: thistle;
+}
+.news-destacada {
+    order: -1;
+    width: 100%;
+}
+
+.img {}
+
+/*ejercicio en clase*/
+
+
