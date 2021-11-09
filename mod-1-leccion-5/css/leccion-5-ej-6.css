@@ -1,0 +1,13 @@
+
+main {
+    margin: 0;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: rgb(240, 255, 28);
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+}

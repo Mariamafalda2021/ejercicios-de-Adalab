@@ -1,0 +1,11 @@
+header {
+    background-color: rgb(111, 38, 163);
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    z-index: 990;
+}
+main {
+position:absolute;
+top: 80px;
+}
