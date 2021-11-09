@@ -1,4 +1,11 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
+section {
+    margin: 50px;
+}
 .container {
  background-color: rgb(204, 196, 196);
 }
@@ -27,35 +34,41 @@
 
 
 /*EJERCICIO 3*/
-.menu {
+nav {
     height: 100px;
     border: solid rgb(243, 168, 224);
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
 }
-.submenu {
-    box-sizing: border-box;
-    margin: auto;
-    font-size: 25px;
-}
-.submenu-home {
 
-}
-.submenu-pro {
+.botones {
 
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.submenu-equ {
+li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    background: #fafafa;
+}
+    /*display: flex on the parent tells the parent to adopt the CSS flexbox model
+align-items: stretch tells the parent that its children should stretch to the full height of the row. This is the default value of the property.
+justify-content: space-between is the magic here — it instructs the parent to distribute remaining space left after laying out the children between them.
+On the children:
 
-}
-.submenu-blo {
-
-}
-.submenu-con {
-
-}
+flex: 0 1 auto on the children tells them that:
+flex-grow: 0: Do no grow, otherwise they will fill up the parent
+flex-shrink: 1: Shrink when necessary, to prevent overflowing (you can turn this off by setting to 0.
+flex-basis: auto: Widths of children element are calculated automatically based on their content. If you want fixed, equal width children element, simply set it to 100%.
+You can adjust the padding to the <li> element as of when you see please.
+    */
 
 /*EJERCICIO 4*/
 .container-news {
@@ -65,15 +78,74 @@
 .news {
     width: 50%;
     overflow: hidden;
-    background-color: thistle;
 }
 .news-destacada {
     order: -1;
     width: 100%;
 }
 
-.img {}
+/*EJERCICIO 5*/
 
-/*ejercicio en clase*/
-
-
+header {
+display: flex;
+background-color: brown;
+justify-content: start;
+height: 50px;
+}
+main {
+display: flex;
+background-color:cyan;
+justify-content: start;
+height: 100vh;
+}
+footer {
+display: flex;
+background-color:darkorchid;
+justify-content: start;
+height: 50px;
+}
+/*EJERCICIO 6*/
+.cabecera{
+    display: flex;
+    background-color: rgb(241, 13, 13);
+    justify-content: center;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+}
+.centro {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 95, 187);
+    justify-content: center;
+    height: 100px;
+    max-width: 960px;
+}
+.parrafo{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(223, 171, 28);
+    justify-content: center;
+    height: 100%;
+}
+.izquierda{
+    display: flex;
+    box-sizing: border-box;
+    order: -1;
+    background-color: rgb(100, 223, 28);
+    justify-content: center;
+    height: 100%;
+}
+.derecha {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(212, 77, 44);
+    justify-content: center;
+    height: 100%;
+}
+.final {
+    display: flex;
+    background-color: rgb(80, 20, 219);
+    justify-content: center;
+    height: 50px;
+}
