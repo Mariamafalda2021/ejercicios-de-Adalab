@@ -3,8 +3,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 .header {
     position: fixed;
     display: flex;
@@ -33,9 +33,7 @@
     overflow: hidden;
     line-height: 0;
 }
-@media all and (max-width:768px){
-    .menu: display: none;
-}
+
 
 
 .hero {
@@ -47,14 +45,14 @@
 
 }
 .contenido-hero {
-    width: 85%;
+    width: 100%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 20px;
 }
 h1 {
@@ -62,7 +60,7 @@ h1 {
     color: white;
 
 }
-p {
+.millones-canciones {
     color: white;
 
 }
@@ -74,24 +72,83 @@ small {
 }
 button {
     background-color: #4CAF50;
-    width: 200px;
+    width: 100%;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     border-radius: 40px;
   }
+.ventajas {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
 }
+.porque {
+    width: 85%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
 
-/*
-.menu {
- display: flex;
- justify-content: space-around;
- color: white;
- list-style: none;   
 }
-*/
+.ventajas-contenido {
+   display: flex;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100px;
+   margin-bottom: 50px;
+   margin-right: 20px;
+}
+.imagen-ventajas {
+    height: 60px;
+    margin: 15px 20px;
+    overflow: hidden;
+    line-height: 0;
+}
+.texto-ventajas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    font-size: 10pt;
+}
+p {
+    color: black;
+}
+.footer
+{   display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+
+}
+.cookies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+    color: white;
+    font-size: 5pt;
+    list-style: none;
+    padding-left: 5%;
+
+ 
+}
+.corporate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+    color: white;
+    font-size: 5pt;
+    list-style: none;
+    padding-right: 5%;
+
+}
