@@ -4,20 +4,16 @@
     margin: 0;
     padding: 0;
 }
-
-.header {
-    position: fixed;
-    display: flex;
-    background-color: black;
-    width: 100%;
-    height: 50px;
-}
 .contenido-header {
+    position: fixed;
+    top: 0;
+    background-color: black;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
     width: 100%;
-    height: 70px;
+    height: 60px;
+
 }
 
 .logo {
@@ -34,26 +30,26 @@
     line-height: 0;
 }
 
-
-
 .hero {
     box-sizing: border-box;
     background-color: rgb(53, 134, 255);
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     display: flex;
-
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 35%;
+    padding-bottom: 5%;
+    position:static;
 }
+
 .contenido-hero {
     width: 100%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    justify-content: space-around;
-    margin-top: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20px;
+    justify-content: space-evenly;
+  
 }
 h1 {
     font-weight: bold;
@@ -61,7 +57,9 @@ h1 {
 
 }
 .millones-canciones {
+    line-height: 20pt;
     color: white;
+    font-weight: bold;
 
 }
 small {
@@ -97,12 +95,17 @@ button {
     text-align: center;
 
 }
+.container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
 .ventajas-contenido {
    display: flex;
-   box-sizing: border-box;
-   width: 100%;
    height: 100px;
-   margin-bottom: 50px;
    margin-right: 20px;
 }
 .imagen-ventajas {
@@ -114,20 +117,17 @@ button {
 .texto-ventajas {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
     justify-content: space-evenly;
     font-size: 10pt;
 }
 p {
     color: black;
 }
-.footer
-{   display: flex;
+.footer {display: flex;
     background-color: black;
     width: 100%;
     height: 100px;
     justify-content: space-between;
-
 }
 .cookies {
     display: flex;
@@ -137,9 +137,7 @@ p {
     color: white;
     font-size: 5pt;
     list-style: none;
-    padding-left: 5%;
-
- 
+    padding-left: 5%; 
 }
 .corporate {
     display: flex;
