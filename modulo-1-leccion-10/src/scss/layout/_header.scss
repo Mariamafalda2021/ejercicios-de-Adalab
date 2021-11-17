@@ -1,0 +1,10 @@
+.page__header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 75px;
+  background-color:aqua;
+
+@media all and (min-width: 768px){
+  height: 100px;
+}
+}
