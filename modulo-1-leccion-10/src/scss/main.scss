@@ -1,5 +1,14 @@
 
-@import "core/reset";
-@import "layout/header";
-@import "layout/main";
-@import "layout/footer";
+// @import "core/reset";
+// @import "layout/header";
+// @import "layout/main";
+// @import "layout/footer";
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: aquamarine;
+}
