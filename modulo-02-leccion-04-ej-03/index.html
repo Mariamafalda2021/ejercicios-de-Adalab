@@ -9,13 +9,17 @@
 </head>
 
 <body>
+    <p id="parrafo1"></p>
     <script>
-        function calculo(10) {
-            var IVA = 2.1;
-            var sinIva = 10;
-            var conIva = 10 + IVA;
-            return "Precio sin IVA: 10, IVA: 2,1 y Total: 12,1";
-        }
+        var precioSinIva = 10;
+        var Iva = precioSinIva * 0.21;
+        var precioConIva = precioSinIva + Iva;
+
+        document.getElementById("parrafo1").innerHTML = "El precio sin IVA:" + " " + precioSinIva + ", IVA:" + " " + Iva + " y Total: " + precioConIva;
+
+
+
+
     </script>
 </body>
 
