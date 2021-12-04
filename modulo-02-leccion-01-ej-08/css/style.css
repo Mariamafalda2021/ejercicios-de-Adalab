@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: lightsalmon;
+    background-color: rgb(62, 137, 172);
 }
 
 .container {
@@ -17,10 +17,10 @@ body {
 }
 
 .link {
-    border: 2px solid mediumslateblue;
+    border: 2px solid rgb(124, 98, 10);
     border-radius: 7px;
     background-color: lavender;
-    color: mediumslateblue;
+    color: rgb(120, 133, 48);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -29,7 +29,7 @@ body {
 
 .link:hover {
     border-color: lavender;
-    background-color: mediumslateblue;
+    background-color: rgb(168, 238, 195);
     color: white;
 }
 

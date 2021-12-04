@@ -1,11 +1,3 @@
 'use strict';
-const link = document.querySelector('.link:nth-child(2)');
+const link = document.querySelector('.link_Reset');
 link.classList.add('link--disable');
-© 2021 GitHub, Inc.
-    Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
