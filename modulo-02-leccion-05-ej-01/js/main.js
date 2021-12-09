@@ -15,7 +15,7 @@ const text = document.querySelector('.text');
 /*
 // forma 1: con función clásica aparte
 function changeText() {
-    text.innerHTML = 'Mi primer click, ¡ole yo y la mujer que me parió!';
+    text.innerHTML = 'Mi primer click, ¡yujuuuuu!';
 }
 button.addEventListener('click', changeText);
 */
@@ -23,7 +23,7 @@ button.addEventListener('click', changeText);
 /*
 // forma 2: con función clásica
 button.addEventListener('click', function changeText() {
-    text.innerHTML = 'Mi primer click, ¡ole yo y la mujer que me parió!';
+    text.innerHTML = 'Mi primer click, ¡yujuuuuu!';
 });
 */
 
