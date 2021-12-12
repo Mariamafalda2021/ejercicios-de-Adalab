@@ -6,8 +6,8 @@ const sadFace = document.querySelector(".js-sadFace");
 const chooseOption = document.querySelector(".js-chooseOption");
 const updateButton = document.querySelector(".update")
 
-function handlerChangeOption() {
-    console.log("cambio");
+/*function handlerChangeOption() {
+    console.log("cambio");*/
 }
 
 function handlerUpdateState() {
@@ -21,6 +21,6 @@ function handlerUpdateState() {
     }
 }
 
-chooseOption.addEventListener("change", handlerChangeOption);
+/*chooseOption.addEventListener("change", handlerChangeOption);*/
 
 updateButton.addEventListener("click", handlerUpdateState);
