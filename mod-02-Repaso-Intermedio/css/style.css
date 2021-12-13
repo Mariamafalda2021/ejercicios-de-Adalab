@@ -45,3 +45,9 @@
 .hidden {
     display: none;
 }
+.correctYellow{
+    background-color:#ffcc00 ;
+}
+.chileanOrange{
+    background-color:#ff9900;
+}

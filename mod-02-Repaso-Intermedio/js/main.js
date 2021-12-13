@@ -6,11 +6,9 @@ const sadFace = document.querySelector(".js-sadFace");
 const chooseOption = document.querySelector(".js-chooseOption");
 const updateButton = document.querySelector(".update")
 
-/*function handlerChangeOption() {
-    console.log("cambio");
-}*/
 
-function handlerUpdateState() {
+
+function paintFace() {
     console.log("click");
     if (chooseOption.value === "happy") {
         happyFace.classList.remove("hidden")
@@ -21,6 +19,24 @@ function handlerUpdateState() {
     }
 }
 
-/*chooseOption.addEventListener("change", handlerChangeOption);*/
+function getRandom(max) {
+    return Math.ceil(Math.random() * max);
+}
 
+function changeBackground() {
+    const randomNum = getRandom(100);
+    if (randomNum % 2 === 0) {
+        fondoAmarillo.classList.remove("chileanOrange");
+        fondoAmarillo.classList.add("correctYellow");
+    } else {
+        fondoAmarillo.classList.remove("correctYellow");
+        fondoAmarillo.classList.add("chileanOrange");
+    }
+}
+
+function handlerUpdateState(event) {
+    event.preventDefault();
+    paintFace();
+    changeBackground();
+}
 updateButton.addEventListener("click", handlerUpdateState);
