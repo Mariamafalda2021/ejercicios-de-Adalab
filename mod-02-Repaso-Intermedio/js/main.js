@@ -7,8 +7,8 @@ const chooseOption = document.querySelector(".js-chooseOption");
 const updateButton = document.querySelector(".update")
 
 /*function handlerChangeOption() {
-    console.log("cambio");*/
-}
+    console.log("cambio");
+}*/
 
 function handlerUpdateState() {
     console.log("click");
