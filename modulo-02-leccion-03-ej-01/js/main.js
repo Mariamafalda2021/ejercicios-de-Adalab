@@ -15,4 +15,3 @@ image.src = userAvatar;
 
 // 3. mostrar avatar de usuario o avatar por defecto
 image.src = userAvatar || DEFAULT_AVATAR;
-

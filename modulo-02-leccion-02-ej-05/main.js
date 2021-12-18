@@ -1,6 +1,11 @@
-const horasAño = 24 * 365;
-const misAños = 33;
-const misHoras = horasAño * misAños;
-const lifeHours = document.querySelector(".lifeHours");
-lifeHours.innerHTML = misHoras;
 
+
+
+const texto = document.querySelector(".lifeHours");
+const horasDia = 24;
+const diasAño = 365;
+const miEdad = 33;
+
+const horasVividas = (diasAño * horasDia) * miEdad;
+
+texto.innerHTML = horasVividas;

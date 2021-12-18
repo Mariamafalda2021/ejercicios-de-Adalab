@@ -1,3 +1,7 @@
-const nombre = "Alicia";
-const sentence = document.querySelector(".presentation");
-sentence.innerHTML = `El nombre de mi compañera es ${nombre} y está compuesto por ${nombre.length} caracteres.`;
+
+const adalaberName = document.querySelector(".js-adalaberName");
+const caracteres = document.querySelector(".js-caracteres");
+const adalaberAlicia = 'Alicia Caballero';
+adalaberName.innerHTML = adalaberAlicia;
+
+caracteres.innerHTML = adalaberAlicia.length;

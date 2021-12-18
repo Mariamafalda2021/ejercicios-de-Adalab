@@ -1,12 +1,8 @@
 'use strict';
 
-const nombre = document.querySelector(".alumna");
+const alumna = document.querySelector(".alumna");
 
-nombre.innerHTML = " María";
-
-
-
-
+alumna.innerHTML = ' Alicia';
 
 
 
