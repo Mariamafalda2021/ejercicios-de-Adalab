@@ -1,2 +1,4 @@
-const superWave = document.querySelector('.super-wave');
-superWave.classList.add("span");
+/*const superWave = document.querySelector('.super-wave');
+superWave.classList.add("span");*/
+
+

@@ -1,3 +1,5 @@
 'use strict';
-const textElement = document.querySelector('.text');
-textElement.innerHTML = "Hola Mundo"
+
+const title = document.querySelector(".text");
+
+title.innerHTML = title.innerHTML + " mundo";
