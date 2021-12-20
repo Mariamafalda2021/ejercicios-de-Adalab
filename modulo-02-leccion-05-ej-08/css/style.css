@@ -1,5 +1,5 @@
-.button {
-    background-color: cornflowerblue;
+.button1, .button2 {
+    background-color: rgb(100, 198, 237);
     color: white;
     font-family: sans-serif;
     padding: 10px;
@@ -9,6 +9,6 @@
     cursor: pointer;
 }
 
-.button--tomato {
+.button--fuchsia {
     background-color: rgb(236, 12, 199);
 }
