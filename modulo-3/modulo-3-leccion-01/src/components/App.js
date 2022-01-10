@@ -2,8 +2,10 @@ import '../styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
+    <div>
+      <header>
+        <h1 class="title">1.5 React y CSS</h1>
+      </header>
     </div>
   );
 }
