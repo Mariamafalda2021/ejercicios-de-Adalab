@@ -1,4 +1,6 @@
-import '../styles/App.css';
+import '../styles/App.scss';
+import logo from '../images/adalab-logo-155x61.png';
+
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
 
       <div className="body">
         <header className="header">
-          <a href="https://adalab.es"><img className="logo" src="../images/adalab-logo-155x61.png" alt="logo-adalab" /></a>
+          <a href="https://adalab.es"><img className="logo" src={logo} alt="logo-adalab" /></a>
           <nav>
             <ul className="menu">
               <li><a className="menu-item" href="#">Blog</a></li>
