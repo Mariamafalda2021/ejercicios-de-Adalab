@@ -36,7 +36,7 @@ const App = () => {
     if (patatas && huevos && cebolla) {
       message = 'Eres una persona concebollista'
     } else if
-      (macarrones || patatas || nueces || huevos || cebolla || cerveza) {
+      (macarrones || nueces || cerveza) {
       message = 'Eres un robot sin paladar';
     }
     return message;
