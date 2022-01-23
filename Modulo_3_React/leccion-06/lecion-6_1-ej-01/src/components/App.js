@@ -1,8 +1,8 @@
 import '../styles/App.scss';
-import { Route, Link, Switch } from 'react-router-dom';
-import Header from './Header'
+import logo from '../images/adalab-logo-155x61.png';
 
-const App = () => {
+
+function App() {
   return (
     <div className="app">
       <div className="head">
@@ -39,5 +39,4 @@ const App = () => {
     </div >
   );
 }
-
 export default App;
