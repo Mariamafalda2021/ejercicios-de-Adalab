@@ -1,6 +1,7 @@
 import '../styles/App.scss';
-import { Route, Link, Switch } from 'react-router-dom';
-import Header from './Header'
+import Header from './Header';
+import Main from './Main';
+
 
 const App = () => {
   return (
@@ -17,24 +18,9 @@ const App = () => {
       </div>
 
       <div className="body">
-        <header className="header">
-          <a href="https://adalab.es"><img className="logo" src={logo} alt="logo-adalab" /></a>
-          <nav>
-            <ul className="menu">
-              <li><a className="menu-item" href="#">Blog</a></li>
-              <li><a className="menu-item" href="#">Contacto</a></li>
-            </ul>
+        <Header />
+        <Main />
 
-          </nav>
-
-        </header>
-
-        <main className="main">
-          <h1 className="title">
-            Creando diversidad digital
-          </h1>
-
-        </main>
       </div>
     </div >
   );
